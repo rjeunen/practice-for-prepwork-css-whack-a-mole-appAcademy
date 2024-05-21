@@ -1,5 +1,31 @@
 /* Your code here */
+.wgs{
+  position: relative;
+  height: 482px;
+  width: 640px;
+  background-color: pink;
+  display: inline-block;
+  overflow: hidden;
+}
 
+.wgsMoleHead{
+  position: absolute;
+  height: 360px;
+  top: 0px;
+  left: 109px;
+  right: 155px;;
+}
+
+.wgsMoleHill{
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  bottom: 0;
+}
+
+.wgsMoleHeadHidden{
+  margin-top: 640px;
+}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
