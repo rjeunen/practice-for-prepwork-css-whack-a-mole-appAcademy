@@ -1,24 +1,30 @@
 /* Your code here */
+.playingField{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+}
+
 .wgs{
   position: relative;
-  height: 482px;
-  width: 640px;
-  background-color: pink;
+  height: 241px;
+  width: 320px;
   display: inline-block;
   overflow: hidden;
 }
 
 .wgsMoleHead{
   position: absolute;
-  height: 360px;
+  height: 180px;
   top: 0px;
-  left: 109px;
-  right: 155px;;
+  left: 56px;
+  right: 78px;
+  transition: "margin-top";
 }
 
 .wgsMoleHill{
   position: absolute;
-  height: 220px;
+  height: 110px;
   width: 100%;
   bottom: 0;
 }
@@ -27,9 +33,13 @@
   margin-top: 640px;
 }
 
+.wgsMoleHeadWacked{
+  /*here you can add some css to animate when the mole is wacked*/
+  
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+ .sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -38,17 +48,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+ .sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+} 
 
-/* .sb__score-holder {
+ .sb__score-holder {
   flex: 1 0 0;
-} */
+} 
 
-/* .sb__game-over--hidden {
+ .sb__game-over--hidden {
   display: none;
-} */
+} 
